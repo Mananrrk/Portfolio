@@ -1,0 +1,167 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #0f172a;
+  color: #f8fafc;
+  line-height: 1.6;
+}
+
+a {
+  color: #60a5fa;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #22d3ee;
+}
+
+header {
+  background-color: #1e293b;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav a {
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+#theme-toggle {
+  background: transparent;
+  border: 2px solid #94a3b8;
+  color: #f8fafc;
+  padding: 5px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+#theme-toggle:hover {
+  background-color: #334155;
+  border-color: #38bdf8;
+}
+
+.hero {
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  color: #facc15;
+}
+
+.hero p {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: #cbd5e1;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #38bdf8;
+  border: none;
+  color: #0f172a;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(56, 189, 248, 0.4);
+  color: white;
+}
+
+section {
+  padding: 60px 40px;
+}
+
+section h2 {
+  font-size: 2rem;
+  color: #38bdf8;
+  margin-bottom: 20px;
+}
+
+#projects h3 {
+  color: #facc15;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+#projects ul {
+  list-style: disc;
+  padding-left: 20px;
+  color: #cbd5e1;
+}
+
+.cert-title {
+  margin-top: 50px;
+  padding-top: 30px;
+  border-top: 2px solid #334155;
+}
+
+.cert-list li {
+  margin-bottom: 8px;
+}
+
+#experience ul {
+  list-style: disc;
+  padding-left: 20px;
+  color: #cbd5e1;
+}
+
+#experience li {
+  margin-bottom: 15px;
+}
+
+#contact a {
+  display: inline-block;
+  margin-top: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #1e293b;
+  color: #94a3b8;
+}
+
+/* Light Mode Styles */
+body.light-mode {
+  background-color: #f8fafc;
+  color: #0f172a;
+}
+
+body.light-mode header,
+body.light-mode footer {
+  background-color: #e2e8f0;
+  color: #0f172a;
+}
+
+body.light-mode a {
+  color: #2563eb;
+}
+
+body.light-mode #theme-toggle {
+  color: #0f172a;
+  border-color: #334155;
+}
